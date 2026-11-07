@@ -52,9 +52,9 @@ Built with Claude: Japan 2026 の期間中（2026-11-02 12:30 のキックオフ
 
 | もの | 作り方 | 作った日 |
 | --- | --- | --- |
-| 台本（`data/scenario/story.ks` など）とゲームの組み立て | Claude Code（Anthropic）が、作者の決めた筋と指示をもとに書いた。作者が読んで直すところを指示した | 11/3〜11/6 |
+| 台本（`data/scenario/story.ks` など）とゲームの組み立て | Claude Code（Anthropic）が、作者の決めた筋と指示をもとに書いた。作者が読んで直すところを指示した | 11/3〜11/7 |
 | セーブ・ロード・メニューなどの画面の部品、タイトルのボタン（`data/others/koden/`、`data/image/config_koden/`、`data/image/title/koden_*`） | Claude Code が、プログラム（Python の Pillow）で描いた。文字は Windows のメイリオと游明朝 | 11/6 |
-| 背景、人物の立ち絵、一枚絵 | OpenAI の画像生成（Codex に入っているもの）で作った。大きさと位置の調整は Claude Code が書いたプログラムでした | 11/5〜11/6 |
+| 背景、人物の立ち絵、一枚絵 | OpenAI の画像生成（Codex に入っているもの）で作った。大きさと位置の調整は Claude Code が書いたプログラムでした | 11/5〜11/7 |
 | 声（`data/sound/voice/`、84本） | Gemini TTS（Google）で作った。作る手順は Claude Code が書いた。音声には SynthID の透かしが入る | 11/5〜11/6 |
 | BGM（`data/bgm/`、6曲） | 作者が Gemini（Google）で作った。全部インスト（歌なし） | 11/4〜11/6 |
 | ゲームの仕組み | ティラノスクリプト v6.03（このリポジトリには入れていない） | — |
