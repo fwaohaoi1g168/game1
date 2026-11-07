@@ -58,3 +58,11 @@ Built with Claude: Japan 2026 の期間中（2026-11-02 12:30 のキックオフ
 | 声（`data/sound/voice/`、84本） | Gemini TTS（Google）で作った。作る手順は Claude Code が書いた。音声には SynthID の透かしが入る | 11/5〜11/6 |
 | BGM（`data/bgm/`、6曲） | 作者が Gemini（Google）で作った。全部インスト（歌なし） | 11/4〜11/6 |
 | ゲームの仕組み | ティラノスクリプト v6.03（このリポジトリには入れていない） | — |
+
+### 使った生成 AI の道具とプラン
+
+- 絵：OpenAI の画像生成（Codex に入っているもの）。作者の ChatGPT Plus（有料）のアカウントで使った
+- 声：Gemini TTS（Google）。Google Cloud の Vertex AI（使った分を払う有料）で作った。1本（タクミの台詞1つ）だけ Google AI Studio で作った
+- BGM：Gemini アプリ（Google。音楽は Lyria）。作者の Google AI Pro（有料）で作った
+
+どの道具の規約も、作った物は使う人のもので、公開を禁じていない（2026-11-07 に OpenAI の利用規約、Google 利用規約、Google Cloud のサービス固有の規約、Gemini API 追加利用規約の本文で確かめた）。AI で作った物を人が作った物とは見せない（どの規約にもある決まり）。
