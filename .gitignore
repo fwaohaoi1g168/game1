@@ -1,0 +1,31 @@
+# ティラノスクリプト本体（再配布しない）
+/tyrano/
+/index.html
+/readme.txt
+
+# ティラノスタジオが作る設定（このPCの場所が入る）
+/studio_config.json
+
+# 新しいプロジェクトに最初から入っている見本（使っていない、または手を入れていない）
+/data/bgimage/room.jpg
+/data/bgimage/rouka.jpg
+/data/bgimage/title.jpg
+/data/bgm/music.m4a
+/data/bgm/music.ogg
+/data/fgimage/builder.png
+/data/fgimage/chara/akane/
+/data/fgimage/chara/yamato/
+/data/image/ExQuestion.png
+/data/image/button/
+/data/image/config/
+/data/image/frame.png
+/data/image/title/button_*.png
+/data/others/3d/
+/data/others/plugin/
+/data/scenario/cg.ks
+/data/scenario/make.ks
+/data/scenario/replay.ks
+/data/scenario/scene1.ks
+/data/scenario/tyrano.ks
+/data/system/KeyConfig.js
+/data/video/
