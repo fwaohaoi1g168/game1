@@ -54,7 +54,7 @@ Built with Claude: Japan 2026 の期間中（2026-11-02 12:30 のキックオフ
 | --- | --- | --- |
 | 台本（`data/scenario/story.ks` など）とゲームの組み立て | Claude Code（Anthropic）が、作者の決めた筋と指示をもとに書いた。作者が読んで直すところを指示した | 11/3〜11/7 |
 | セーブ・ロード・メニューなどの画面の部品、タイトルのボタン（`data/others/koden/`、`data/image/config_koden/`、`data/image/title/koden_*`） | Claude Code が、プログラム（Python の Pillow）で描いた。文字は Windows のメイリオと游明朝 | 11/6 |
-| 背景、人物の立ち絵、一枚絵 | OpenAI の画像生成（Codex に入っているもの）で作った。大きさと位置の調整は Claude Code が書いたプログラムでした | 11/5〜11/7 |
+| 背景、人物の立ち絵、一枚絵 | OpenAI の画像生成（Codex に入っているもの）で作った。場面1の客とタクミの立ち絵は、髪の塗りを Google Antigravity の画像生成で直し、Claude Code が書いたプログラムで髪の部分だけを元の絵に重ねた。大きさと位置の調整も Claude Code が書いたプログラムでした | 11/5〜11/7 |
 | 声（`data/sound/voice/`、84本） | Gemini TTS（Google）で作った。作る手順は Claude Code が書いた。音声には SynthID の透かしが入る | 11/5〜11/6 |
 | BGM（`data/bgm/`、6曲） | 作者が Gemini（Google）で作った。全部インスト（歌なし） | 11/4〜11/6 |
 | ゲームの仕組み | ティラノスクリプト v6.03（このリポジトリには入れていない） | — |
@@ -62,7 +62,8 @@ Built with Claude: Japan 2026 の期間中（2026-11-02 12:30 のキックオフ
 ### 使った生成 AI の道具とプラン
 
 - 絵：OpenAI の画像生成（Codex に入っているもの）。作者の ChatGPT Plus（有料）のアカウントで使った
+- 絵の直し（客とタクミの髪）：Google Antigravity（CLI）の画像生成
 - 声：Gemini TTS（Google）。Google Cloud の Vertex AI（使った分を払う有料）で作った。1本（タクミの台詞1つ）だけ Google AI Studio で作った
 - BGM：Gemini アプリ（Google。音楽は Lyria）。作者の Google AI Pro（有料）で作った
 
-どの道具の規約も、作った物は使う人のもので、公開を禁じていない（2026-11-07 に OpenAI の利用規約、Google 利用規約、Google Cloud のサービス固有の規約、Gemini API 追加利用規約の本文で確かめた）。AI で作った物を人が作った物とは見せない（どの規約にもある決まり）。
+どの道具の規約も、作った物は使う人のもので、公開を禁じていない（2026-11-07 に OpenAI の利用規約、Google 利用規約、Google Cloud のサービス固有の規約、Gemini API 追加利用規約の本文で確かめた。Google Antigravity の追加規約は、作った物について別の決まりを置かず、Google 利用規約に従う形になっている）。AI で作った物を人が作った物とは見せない（どの規約にもある決まり）。
