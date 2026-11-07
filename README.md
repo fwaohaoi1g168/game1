@@ -62,7 +62,7 @@ Built with Claude: Japan 2026 の期間中（2026-11-02 12:30 のキックオフ
 ### 使った生成 AI の道具とプラン
 
 - 絵：OpenAI の画像生成（Codex に入っているもの）。作者の ChatGPT Plus（有料）のアカウントで使った
-- 絵の直し（客とタクミの髪）：Google Antigravity（CLI）の画像生成
+- 絵の直し（客とタクミの髪）：Google Antigravity（CLI）の画像生成。作者の Google AI Pro（有料）で使った
 - 声：Gemini TTS（Google）。Google Cloud の Vertex AI（使った分を払う有料）で作った。1本（タクミの台詞1つ）だけ Google AI Studio で作った
 - BGM：Gemini アプリ（Google。音楽は Lyria）。作者の Google AI Pro（有料）で作った
 
