@@ -13,7 +13,7 @@
 
 ## 遊ぶには（Windows）
 
-Release（https://github.com/fwaohaoi1g168/game1/releases/latest ）の `game1-1.1-win.zip` を落として展開し、`game1\tyranoproject.exe` を起動する。2026-11-08 に作った版（v1.1）で、11/7 に足した、ショップの客のビフォー・アフターの立ち絵と、髪のモアレを直した立ち絵が入っている。作りは ティラノスクリプト v6.03。
+Release（https://github.com/fwaohaoi1g168/game1/releases/tag/v1.1 ）の `game1-1.1-win.zip` を落として展開し、`game1\tyranoproject.exe` を起動する。2026-11-08 に作った版（v1.1）で、11/7 に足した、ショップの客のビフォー・アフターの立ち絵と、髪のモアレを直した立ち絵が入っている。作りは ティラノスクリプト v6.03。
 
 外付けの目の取り込みに使ったのは、2026-11-06 に書き出した版（Release `v1.0` の `game1-win.zip`）。
 
