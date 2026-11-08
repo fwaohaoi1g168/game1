@@ -56,11 +56,6 @@
 [chara_new name="takumi" storage="chara/takumi/normal.png" jname="タクミ"]
 [chara_face name="takumi" face="kando" storage="chara/takumi/kando.png"]
 
-;客（場面1のショップの客。11/7 本人の頼みで足した。ビフォー＝地味なまま、アフター＝ジャケットを着せて襟を立て、チェーンを垂らしたあと）
-;右の枠に left=690（反転なし。もとから左を向いている）。タクミが出る前に下げる
-[chara_new name="kyaku" storage="chara/kyaku/before.png" jname="客"]
-[chara_face name="kyaku" face="after" storage="chara/kyaku/after.png"]
-
 
 ;==================== 1 渋谷のショップ ====================
 *scene1
@@ -81,7 +76,6 @@
 漆黒の[ruby text="ダーク"]流[ruby text="メ"]星[ruby text="テオ"]雨――天城ジン。[p]
 [resetfont]
 
-[chara_show name="kyaku" time=400 left="690" top="0" zindex="2"]
 #客
 [playse storage="voice/kyaku_01_01.ogg" buf=1 clear=true]
 あの……オレ、こういう店、初めてで……[p]
@@ -91,12 +85,7 @@
 いいじゃん。初めてってのは、伸びしろしかねえってことっしょ[p]
 
 #
-ジンは客のカーディガンを脱がせ、黒いジャケットを羽織らせた。[r]
-襟をひとつ立て、シルバーのチェーンを一本だけ垂らす。[p]
-
-;客がアフターに変わる（11/7 本人：カーディガンをジャケットに替えたので、本文もそれに合わせた）
-[chara_mod name="kyaku" face="after" time=800]
-#
+ジンは客の襟をひとつ立て、シルバーのチェーンを一本だけ垂らした。[r]
 それだけで、鏡の中の男は別人になった。[p]
 
 #客
@@ -109,7 +98,6 @@
 鏡見てみ。それ、最初からあんただから[p]
 
 [chara_mod name="jin" face="default"]
-[chara_hide name="kyaku" time=400]
 [chara_show name="takumi" time=400 left="638" top="0" zindex="2" reflect="true"]
 #タクミ
 [playse storage="voice/takumi_01_01.ogg" buf=1 clear=true]
